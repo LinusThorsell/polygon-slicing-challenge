@@ -3,7 +3,7 @@
 This is a coding challenge that follows the following rules:
 - Define a convex polygon by a list of points (x, y).
 - Define a list of lines (x1, y1, x2, y2).
-- Given the polygon and the lines, take the first line and split the polygon on the interception point. Take the next line, split the two new polygons with the next line to create (potentially) double the amount of polygons. Continue doing this until all lines have been used to cut the polygons.
+- Given the polygon and the lines, take the first line and split the polygon where the line intercects the polygon. Take the next line, split the two new polygons with the next line to create (potentially) double the amount of polygons. Continue doing this until all lines have been used to cut the polygons.
 - Calculate the largest area of the polygons.
 
 ### Example
